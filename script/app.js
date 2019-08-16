@@ -44,12 +44,17 @@ function getData(){
     
     
   }
-
+  document.getElementById('btn2').style.display = 'inline-block';
   document.form.dniobtenido.value = resultado
   return resultado
   
 
+  
+  
 }
+
+
+
 
 
     
