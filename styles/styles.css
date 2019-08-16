@@ -34,10 +34,6 @@ form{
   border-radius: 10px;
 }
 
-button{
-  
-}
-
 .boton{
   margin-top: 280px;
   border-radius: 10px;
@@ -46,6 +42,11 @@ button{
   background-color: #F68F26;
   height: 100px;
   width: 100px;
+}
+
+.btn{
+  border: #ffffff 2px solid !important;
+  color: #ffffff !important;
 }
 
 
