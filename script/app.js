@@ -37,7 +37,8 @@ function getData(){
 
       case '9': var1 = 'J'
       break
-      default: var1 = "X"
+
+      default: var1 = '\n'
     }
     resultado += var1
     

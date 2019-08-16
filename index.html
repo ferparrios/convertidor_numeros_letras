@@ -5,22 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JS</title>
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="script/app.js"></script>
-
 </head>
 <body>
-    <h1>Convertidor de numeros a texto</h1>
-
-
-
-    <form action="" id="form" name="form">
-        <input type="text" name="ingreso" id="ingreso" placeholder="Ingrese DNI"><br>
-        <button type="button" onclick="getData()">Convertir</button><br>
-        <textarea id="respuesta" name="dniobtenido"></textarea>
-    </form>
-
+<header>
+     <img src="http://villaplanet.educared.fundaciontelefonica.com.pe/static/images/icon_telefonica.png" alt="">
+        
+    <img src="http://villaplanet.educared.fundaciontelefonica.com.pe/static/images/title_villaplanet.png" alt="">
+            
+    <img src="http://villaplanet.educared.fundaciontelefonica.com.pe/static/images/icon_aporta.png" alt="">
+</header>
+<section>
+    <p>Actividades para desarrollar habilidades <br/>
+            comunicativas y matemáticas	</p>
+    <h1 style = "margin-bottom: 0px;">Conversor</h1>
     
+    <div>
+        <form action="" id="form" name="form">
     
+            <textarea type="text" name="ingreso" id="ingreso" placeholder="Ingrese los caracteres a convertir" cols="25" rows="25"></textarea>
+        
+            <button type="button" onclick="getData()" class="boton">Convertir</button>
+
+            <textarea id="respuesta" name="dniobtenido" cols="25" rows="25"></textarea>
+        </form>
+    </div>
+</section>
+<section>
+    <div>
+        <button class="btn" data-clipboard-action="copy" data-clipboard-target="#respuesta">
+            Copiar
+        </button>
+    </div>
+</section>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+    <script>
+        new ClipboardJS('.btn');
+    </script>
 </html>
