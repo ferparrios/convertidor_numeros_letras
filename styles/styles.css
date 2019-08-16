@@ -35,7 +35,7 @@ form{
 }
 
 .boton{
-  margin-top: 280px;
+  margin-top: 200px;
   border-radius: 10px;
   border: 2px solid #222222;
   box-shadow: 5px 10px #222222;
@@ -45,8 +45,14 @@ form{
 }
 
 .btn{
-  border: #ffffff 2px solid !important;
   color: #ffffff !important;
+  margin-top: 50px;
+  border-radius: 10px !important;
+  border: 2px solid #222222 !important;
+  box-shadow: 5px 10px #222222;
+  background-color: #F68F26 !important;
+  height: 100px;
+  width: 100px;
 }
 
 
